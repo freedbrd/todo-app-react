@@ -13,7 +13,7 @@ export default function TodoForm({setTodolist, todoList}: Props) {
 
     setTodolist([
       ...todoList,
-      {id: Date.now().toString(), title: title, complete: false},
+      {id: Date.now().toString(), title, complete: false},
     ]);
 
     setTitle('');
